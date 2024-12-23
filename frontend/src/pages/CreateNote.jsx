@@ -52,7 +52,7 @@ const CreateNote = () => {
       ):("")
       }
         <h2 className="text-pink-950 text-xl py-2 text-center font-bold">Create Your Note</h2>
-      <div className=" flex flex-col w-1/2 items-center mx-auto border-2 border-gray-500 rounded-md shadow-lg shadow-gray-500 p-4" >
+      <div className=" flex flex-col w-1/2 items-center mx-4 md:mx-auto border-2 border-gray-500 rounded-md shadow-lg shadow-gray-500 p-4" >
         <form className="flex flex-col px-2 my-4 w-full" onSubmit={createNote}>
             <div className=" mb-4">
 
